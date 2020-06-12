@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C679B52490DE000093000D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679B42490DE000093000D /* AppDelegate.m */; };
+		31C679B82490DE000093000D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679B72490DE000093000D /* ViewController.m */; };
+		31C679BA2490DE010093000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C679B92490DE010093000D /* Assets.xcassets */; };
+		31C679BD2490DE010093000D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C679BB2490DE010093000D /* Main.storyboard */; };
+		31C679C02490DE010093000D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679BF2490DE010093000D /* main.m */; };
+		31C679D72490E7600093000D /* VISA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C679D02490E08B0093000D /* VISA.framework */; };
+		31C679D82490E7600093000D /* VISA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31C679D02490E08B0093000D /* VISA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		31C679E12491C0F90093000D /* TekDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679E02491C0F90093000D /* TekDevice.m */; };
+		31C679E424922D800093000D /* execmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C679E324922D800093000D /* execmd.png */; };
+		31C679E724930F3F0093000D /* OSCSetttingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679E624930F3F0093000D /* OSCSetttingViewController.m */; };
+		31C679EA24930F650093000D /* OSCCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C679E924930F650093000D /* OSCCaptureViewController.m */; };
+		31C76EF424931431002ED2B4 /* OSCSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76EF324931431002ED2B4 /* OSCSplitViewController.m */; };
+		31C76EF624931FFA002ED2B4 /* my_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C76EF524931FF9002ED2B4 /* my_image.png */; };
+		31C76EFE249358DF002ED2B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F00249358DF002ED2B4 /* Localizable.strings */; };
+		31C76F1F249359FD002ED2B4 /* TekDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F06249359FC002ED2B4 /* TekDeviceManager.m */; };
+		31C76F20249359FD002ED2B4 /* TekDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F07249359FC002ED2B4 /* TekDevice.m */; };
+		31C76F21249359FD002ED2B4 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F08249359FC002ED2B4 /* Main.strings */; };
+		31C76F22249359FD002ED2B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F0A249359FC002ED2B4 /* Localizable.strings */; };
+		31C76F23249359FD002ED2B4 /* my_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F0D249359FC002ED2B4 /* my_image.png */; };
+		31C76F24249359FD002ED2B4 /* OSCSetttingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F0F249359FC002ED2B4 /* OSCSetttingViewController.m */; };
+		31C76F25249359FD002ED2B4 /* VisaDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F10249359FC002ED2B4 /* VisaDriver.m */; };
+		31C76F26249359FD002ED2B4 /* execmd.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F11249359FC002ED2B4 /* execmd.png */; };
+		31C76F27249359FD002ED2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F12249359FC002ED2B4 /* Assets.xcassets */; };
+		31C76F28249359FD002ED2B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F13249359FC002ED2B4 /* ViewController.m */; };
+		31C76F29249359FD002ED2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F15249359FC002ED2B4 /* Main.storyboard */; };
+		31C76F2A249359FD002ED2B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F17249359FC002ED2B4 /* main.m */; };
+		31C76F2B249359FD002ED2B4 /* OSCCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F1A249359FC002ED2B4 /* OSCCaptureViewController.m */; };
+		31C76F2C249359FD002ED2B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F1B249359FC002ED2B4 /* AppDelegate.m */; };
+		31C76F2D249359FD002ED2B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F1C249359FC002ED2B4 /* Info.plist */; };
+		31C76F2E249359FD002ED2B4 /* OSCSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F1D249359FC002ED2B4 /* OSCSplitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31C679D92490E7600093000D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				31C679D82490E7600093000D /* VISA.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31C679B02490DE000093000D /* Tektronix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tektronix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C679B32490DE000093000D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C679B42490DE000093000D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C679B62490DE000093000D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31C679B72490DE000093000D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31C679B92490DE010093000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C679BC2490DE010093000D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C679BE2490DE010093000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C679BF2490DE010093000D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C679C12490DE010093000D /* Tektronix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tektronix.entitlements; sourceTree = "<group>"; };
+		31C679D02490E08B0093000D /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VISA.framework; path = ../../../../Library/Frameworks/VISA.framework; sourceTree = "<group>"; };
+		31C679DF2491C0F90093000D /* TekDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TekDevice.h; sourceTree = "<group>"; };
+		31C679E02491C0F90093000D /* TekDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekDevice.m; sourceTree = "<group>"; };
+		31C679E324922D800093000D /* execmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = execmd.png; sourceTree = "<group>"; };
+		31C679E524930F3F0093000D /* OSCSetttingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCSetttingViewController.h; sourceTree = "<group>"; };
+		31C679E624930F3F0093000D /* OSCSetttingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCSetttingViewController.m; sourceTree = "<group>"; };
+		31C679E824930F650093000D /* OSCCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCCaptureViewController.h; sourceTree = "<group>"; };
+		31C679E924930F650093000D /* OSCCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCCaptureViewController.m; sourceTree = "<group>"; };
+		31C76EF224931431002ED2B4 /* OSCSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCSplitViewController.h; sourceTree = "<group>"; };
+		31C76EF324931431002ED2B4 /* OSCSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCSplitViewController.m; sourceTree = "<group>"; };
+		31C76EF524931FF9002ED2B4 /* my_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_image.png; sourceTree = "<group>"; };
+		31C76EFF249358DF002ED2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31C76F02249359FC002ED2B4 /* Tektronix.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Tektronix.entitlements; sourceTree = "<group>"; };
+		31C76F04249359FC002ED2B4 /* TekDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TekDeviceManager.h; sourceTree = "<group>"; };
+		31C76F05249359FC002ED2B4 /* TekDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TekDevice.h; sourceTree = "<group>"; };
+		31C76F06249359FC002ED2B4 /* TekDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TekDeviceManager.m; sourceTree = "<group>"; };
+		31C76F07249359FC002ED2B4 /* TekDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TekDevice.m; sourceTree = "<group>"; };
+		31C76F09249359FC002ED2B4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		31C76F0B249359FC002ED2B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31C76F0C249359FC002ED2B4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31C76F0D249359FC002ED2B4 /* my_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_image.png; sourceTree = "<group>"; };
+		31C76F0E249359FC002ED2B4 /* OSCCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCCaptureViewController.h; sourceTree = "<group>"; };
+		31C76F0F249359FC002ED2B4 /* OSCSetttingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCSetttingViewController.m; sourceTree = "<group>"; };
+		31C76F10249359FC002ED2B4 /* VisaDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaDriver.m; sourceTree = "<group>"; };
+		31C76F11249359FC002ED2B4 /* execmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = execmd.png; sourceTree = "<group>"; };
+		31C76F12249359FC002ED2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C76F13249359FC002ED2B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31C76F14249359FC002ED2B4 /* OSCSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCSplitViewController.h; sourceTree = "<group>"; };
+		31C76F16249359FC002ED2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C76F17249359FC002ED2B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31C76F18249359FC002ED2B4 /* VisaDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaDriver.h; sourceTree = "<group>"; };
+		31C76F19249359FC002ED2B4 /* OSCSetttingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCSetttingViewController.h; sourceTree = "<group>"; };
+		31C76F1A249359FC002ED2B4 /* OSCCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCCaptureViewController.m; sourceTree = "<group>"; };
+		31C76F1B249359FC002ED2B4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31C76F1C249359FC002ED2B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C76F1D249359FC002ED2B4 /* OSCSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCSplitViewController.m; sourceTree = "<group>"; };
+		31C76F1E249359FC002ED2B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C679AD2490DE000093000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C679D72490E7600093000D /* VISA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C679A72490DE000093000D = {
+			isa = PBXGroup;
+			children = (
+				31C679B22490DE000093000D /* Tektronix */,
+				31C679B12490DE000093000D /* Products */,
+				31C679C72490DEC30093000D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31C679B12490DE000093000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C679B02490DE000093000D /* Tektronix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C679B22490DE000093000D /* Tektronix */ = {
+			isa = PBXGroup;
+			children = (
+				31C679DB2491C0CD0093000D /* Tek */,
+				31C679B32490DE000093000D /* AppDelegate.h */,
+				31C679B42490DE000093000D /* AppDelegate.m */,
+				31C679B62490DE000093000D /* ViewController.h */,
+				31C679B72490DE000093000D /* ViewController.m */,
+				31C679B92490DE010093000D /* Assets.xcassets */,
+				31C76EF224931431002ED2B4 /* OSCSplitViewController.h */,
+				31C76EF324931431002ED2B4 /* OSCSplitViewController.m */,
+				31C76EF524931FF9002ED2B4 /* my_image.png */,
+				31C679BB2490DE010093000D /* Main.storyboard */,
+				31C679E524930F3F0093000D /* OSCSetttingViewController.h */,
+				31C679E624930F3F0093000D /* OSCSetttingViewController.m */,
+				31C76F00249358DF002ED2B4 /* Localizable.strings */,
+				31C76F01249359FC002ED2B4 /* Tektronix */,
+				31C679E324922D800093000D /* execmd.png */,
+				31C679E824930F650093000D /* OSCCaptureViewController.h */,
+				31C679E924930F650093000D /* OSCCaptureViewController.m */,
+				31C679BE2490DE010093000D /* Info.plist */,
+				31C679BF2490DE010093000D /* main.m */,
+				31C679C12490DE010093000D /* Tektronix.entitlements */,
+			);
+			path = Tektronix;
+			sourceTree = "<group>";
+		};
+		31C679C72490DEC30093000D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31C679D02490E08B0093000D /* VISA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C679DB2491C0CD0093000D /* Tek */ = {
+			isa = PBXGroup;
+			children = (
+				31C679DF2491C0F90093000D /* TekDevice.h */,
+				31C679E02491C0F90093000D /* TekDevice.m */,
+			);
+			path = Tek;
+			sourceTree = "<group>";
+		};
+		31C76F01249359FC002ED2B4 /* Tektronix */ = {
+			isa = PBXGroup;
+			children = (
+				31C76F02249359FC002ED2B4 /* Tektronix.entitlements */,
+				31C76F03249359FC002ED2B4 /* Tek */,
+				31C76F08249359FC002ED2B4 /* Main.strings */,
+				31C76F0A249359FC002ED2B4 /* Localizable.strings */,
+				31C76F0C249359FC002ED2B4 /* AppDelegate.h */,
+				31C76F0D249359FC002ED2B4 /* my_image.png */,
+				31C76F0E249359FC002ED2B4 /* OSCCaptureViewController.h */,
+				31C76F0F249359FC002ED2B4 /* OSCSetttingViewController.m */,
+				31C76F10249359FC002ED2B4 /* VisaDriver.m */,
+				31C76F11249359FC002ED2B4 /* execmd.png */,
+				31C76F12249359FC002ED2B4 /* Assets.xcassets */,
+				31C76F13249359FC002ED2B4 /* ViewController.m */,
+				31C76F14249359FC002ED2B4 /* OSCSplitViewController.h */,
+				31C76F15249359FC002ED2B4 /* Main.storyboard */,
+				31C76F17249359FC002ED2B4 /* main.m */,
+				31C76F18249359FC002ED2B4 /* VisaDriver.h */,
+				31C76F19249359FC002ED2B4 /* OSCSetttingViewController.h */,
+				31C76F1A249359FC002ED2B4 /* OSCCaptureViewController.m */,
+				31C76F1B249359FC002ED2B4 /* AppDelegate.m */,
+				31C76F1C249359FC002ED2B4 /* Info.plist */,
+				31C76F1D249359FC002ED2B4 /* OSCSplitViewController.m */,
+				31C76F1E249359FC002ED2B4 /* ViewController.h */,
+			);
+			name = Tektronix;
+			sourceTree = "<group>";
+		};
+		31C76F03249359FC002ED2B4 /* Tek */ = {
+			isa = PBXGroup;
+			children = (
+				31C76F04249359FC002ED2B4 /* TekDeviceManager.h */,
+				31C76F05249359FC002ED2B4 /* TekDevice.h */,
+				31C76F06249359FC002ED2B4 /* TekDeviceManager.m */,
+				31C76F07249359FC002ED2B4 /* TekDevice.m */,
+			);
+			path = Tek;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C679AF2490DE000093000D /* Tektronix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C679C42490DE010093000D /* Build configuration list for PBXNativeTarget "Tektronix" */;
+			buildPhases = (
+				31C679AC2490DE000093000D /* Sources */,
+				31C679AD2490DE000093000D /* Frameworks */,
+				31C679AE2490DE000093000D /* Resources */,
+				31C679D92490E7600093000D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tektronix;
+			productName = Tektronix;
+			productReference = 31C679B02490DE000093000D /* Tektronix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C679A82490DE000093000D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Jerry.Yang;
+				TargetAttributes = {
+					31C679AF2490DE000093000D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 31C679AB2490DE000093000D /* Build configuration list for PBXProject "Tektronix" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 31C679A72490DE000093000D;
+			productRefGroup = 31C679B12490DE000093000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C679AF2490DE000093000D /* Tektronix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C679AE2490DE000093000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C76EFE249358DF002ED2B4 /* Localizable.strings in Resources */,
+				31C679BA2490DE010093000D /* Assets.xcassets in Resources */,
+				31C679BD2490DE010093000D /* Main.storyboard in Resources */,
+				31C76F22249359FD002ED2B4 /* Localizable.strings in Resources */,
+				31C76F27249359FD002ED2B4 /* Assets.xcassets in Resources */,
+				31C76F29249359FD002ED2B4 /* Main.storyboard in Resources */,
+				31C76F21249359FD002ED2B4 /* Main.strings in Resources */,
+				31C679E424922D800093000D /* execmd.png in Resources */,
+				31C76F2D249359FD002ED2B4 /* Info.plist in Resources */,
+				31C76EF624931FFA002ED2B4 /* my_image.png in Resources */,
+				31C76F23249359FD002ED2B4 /* my_image.png in Resources */,
+				31C76F26249359FD002ED2B4 /* execmd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C679AC2490DE000093000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C76F2A249359FD002ED2B4 /* main.m in Sources */,
+				31C679E12491C0F90093000D /* TekDevice.m in Sources */,
+				31C679EA24930F650093000D /* OSCCaptureViewController.m in Sources */,
+				31C76F2E249359FD002ED2B4 /* OSCSplitViewController.m in Sources */,
+				31C679B82490DE000093000D /* ViewController.m in Sources */,
+				31C679C02490DE010093000D /* main.m in Sources */,
+				31C76F1F249359FD002ED2B4 /* TekDeviceManager.m in Sources */,
+				31C76EF424931431002ED2B4 /* OSCSplitViewController.m in Sources */,
+				31C76F28249359FD002ED2B4 /* ViewController.m in Sources */,
+				31C76F20249359FD002ED2B4 /* TekDevice.m in Sources */,
+				31C679E724930F3F0093000D /* OSCSetttingViewController.m in Sources */,
+				31C76F24249359FD002ED2B4 /* OSCSetttingViewController.m in Sources */,
+				31C679B52490DE000093000D /* AppDelegate.m in Sources */,
+				31C76F25249359FD002ED2B4 /* VisaDriver.m in Sources */,
+				31C76F2B249359FD002ED2B4 /* OSCCaptureViewController.m in Sources */,
+				31C76F2C249359FD002ED2B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31C679BB2490DE010093000D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C679BC2490DE010093000D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C76F00249358DF002ED2B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76EFF249358DF002ED2B4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		31C76F08249359FC002ED2B4 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76F09249359FC002ED2B4 /* zh-Hans */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		31C76F0A249359FC002ED2B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76F0B249359FC002ED2B4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		31C76F15249359FC002ED2B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C76F16249359FC002ED2B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C679C22490DE010093000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31C679C32490DE010093000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31C679C52490DE010093000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tektronix/Tektronix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = ../../../../Library/Frameworks/VISA.framework;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Headers";
+				INFOPLIST_FILE = Tektronix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.Tektronix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31C679C62490DE010093000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tektronix/Tektronix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = ../../../../Library/Frameworks/VISA.framework;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks/VISA.framework/Headers";
+				INFOPLIST_FILE = Tektronix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.Tektronix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C679AB2490DE000093000D /* Build configuration list for PBXProject "Tektronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C679C22490DE010093000D /* Debug */,
+				31C679C32490DE010093000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C679C42490DE010093000D /* Build configuration list for PBXNativeTarget "Tektronix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C679C52490DE010093000D /* Debug */,
+				31C679C62490DE010093000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C679A82490DE000093000D /* Project object */;
+}
