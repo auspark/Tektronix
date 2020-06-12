@@ -11,6 +11,7 @@
 @interface OSCSplitViewController ()
 {
     TekDevice *scopeManager;
+    NSSize oldSize;
 }
 @end
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [self.splitView setDelegate:self];
+//    oldSize = self.splitView.frame.size;
     NSArray *childViews = [self childViewControllers];
     for (id obj in childViews) {
         if ([obj isMemberOfClass:[OSCSetttingViewController class]]) {
@@ -45,16 +48,25 @@
     }
 }
 
+- (IBAction)expandSidebar:(id)sender {
+    [[[[self splitViewItems] firstObject] animator] setCollapsed:NO];
+}
 
+- (IBAction)collapseSidebar:(id)sender {
+    [[[[self splitViewItems] firstObject] animator] setCollapsed:YES];
+}
 -(IBAction)showOrHideSettingView:(id)sender{
     NSToolbarItem *settingToolbarItem = (NSToolbarItem *)sender;
     if (settingToolbarItem.tag==0) {
-        [self removeChildViewControllerAtIndex:0];
+//        [self removeChildViewControllerAtIndex:0];
+        [[[[self splitViewItems] firstObject]animator]setCollapsed:YES];
         settingToolbarItem.tag=1;
     }
     else{
         settingToolbarItem.tag=0;
-        [self insertChildViewController:self.setViewController atIndex:0];
+//        [self insertChildViewController:self.setViewController atIndex:0];
+        [[[[self splitViewItems] firstObject]animator]setCollapsed:NO];
+//        [self.setViewController preferredMinimumSize];
     }
 }
 

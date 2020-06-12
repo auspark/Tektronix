@@ -37,6 +37,7 @@
 		31C76F2C249359FD002ED2B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F1B249359FC002ED2B4 /* AppDelegate.m */; };
 		31C76F2D249359FD002ED2B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C76F1C249359FC002ED2B4 /* Info.plist */; };
 		31C76F2E249359FD002ED2B4 /* OSCSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F1D249359FC002ED2B4 /* OSCSplitViewController.m */; };
+		31C76F32249397ED002ED2B4 /* FixedSidebarSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C76F31249397ED002ED2B4 /* FixedSidebarSplitView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +102,8 @@
 		31C76F1C249359FC002ED2B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31C76F1D249359FC002ED2B4 /* OSCSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCSplitViewController.m; sourceTree = "<group>"; };
 		31C76F1E249359FC002ED2B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31C76F30249397ED002ED2B4 /* FixedSidebarSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedSidebarSplitView.h; sourceTree = "<group>"; };
+		31C76F31249397ED002ED2B4 /* FixedSidebarSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedSidebarSplitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				31C679B62490DE000093000D /* ViewController.h */,
 				31C679B72490DE000093000D /* ViewController.m */,
 				31C679B92490DE010093000D /* Assets.xcassets */,
+				31C76F30249397ED002ED2B4 /* FixedSidebarSplitView.h */,
+				31C76F31249397ED002ED2B4 /* FixedSidebarSplitView.m */,
 				31C76EF224931431002ED2B4 /* OSCSplitViewController.h */,
 				31C76EF324931431002ED2B4 /* OSCSplitViewController.m */,
 				31C76EF524931FF9002ED2B4 /* my_image.png */,
@@ -305,6 +310,7 @@
 				31C679C02490DE010093000D /* main.m in Sources */,
 				31C76F1F249359FD002ED2B4 /* TekDeviceManager.m in Sources */,
 				31C76EF424931431002ED2B4 /* OSCSplitViewController.m in Sources */,
+				31C76F32249397ED002ED2B4 /* FixedSidebarSplitView.m in Sources */,
 				31C76F28249359FD002ED2B4 /* ViewController.m in Sources */,
 				31C76F20249359FD002ED2B4 /* TekDevice.m in Sources */,
 				31C679E724930F3F0093000D /* OSCSetttingViewController.m in Sources */,

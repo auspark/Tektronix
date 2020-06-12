@@ -15,4 +15,9 @@
 @property (strong) OSCSetttingViewController *setViewController;
 @property (strong) OSCCaptureViewController *captureViewController;
 
+- (IBAction)expandSidebar:(id)sender;
+
+- (IBAction)collapseSidebar:(id)sender;
+
+
 @end
