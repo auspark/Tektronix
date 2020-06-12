@@ -1,0 +1,139 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+/DerivedData/JSONEditor/Logs/Build/71EE62BF-2B07-433B-A481-3B4D8148A9A9.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/07A6246C-A1A6-4AC2-A609-99FF2752E1F3.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/3D175A2F-9C02-4008-AD16-94D06264DF57.xcactivitylog
+/DerivedData/ModuleCache.noindex
+/DerivedData/JSONEditor/Logs/Debug/706A8063-8D58-45CD-805E-5D296792B96B.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/1D02D99B-4D2C-42F8-8B7C-5DA33BA1A180.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/73562C79-800F-4B25-ACAA-771D6F743499.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/FAA068D3-7BFB-43F4-96CC-F8B560EA2272.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/F444195E-9DE0-4237-9D36-2BF582D32FA6.xcactivitylog
+/DerivedData/JSONEditor/Index/DataStore
+/DerivedData/JSONEditor/Logs/Debug/9DEE08CD-6FBA-40A8-94E1-FE2D7445DA44.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/121CF9B9-72A7-422C-9545-69A46543DC3D.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/989E8F6F-6D8B-4B2A-8BBD-F055F2E6D51C.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/3EA6FC73-AAE6-4D91-92DD-73660268AEBA.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/B8ED00E5-6C30-4736-96B5-CEE1E6BF1E1E.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/9F8C3664-32EA-46AF-8871-A252B75DE7E5.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/497027F6-BD4A-41E0-BE04-4F99320E1B05.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/CB22711D-DCF3-45E4-B466-DABEFF02BDD4.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/D4AB7954-A6D2-47EE-8DCB-853EBE0C69FE.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/E2BA2551-3476-43D7-B3A4-9294134AB10A.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/0E57AD30-1281-4F86-9E44-39F28C4271EC.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/FEFC5144-6745-4B5A-8F9E-559F9EECBE17.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/44607C29-27CA-4F80-AF8E-11CD9DAEC7D9.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/C35F3E8C-513C-4294-8588-A63009976D83.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/0B89C144-7C3F-4F9A-B5D5-723CAEA23363.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/5C768518-7987-4401-A96B-23F451C235A9.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/C92F3E48-DD77-4FA1-8A63-B64107E19DAB.xcactivitylog
+/DerivedData/JSONEditor/info.plist
+/DerivedData/JSONEditor/TextIndex
+/JSONEditor.xcodeproj/project.xcworkspace/xcuserdata
+/DerivedData/JSONEditor/Logs/Build/49A71CC4-2F12-4365-B7F3-4E6BA727E3FD.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/43A2E3E6-54B4-4E13-A7BC-892A7E319AA5.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/62A6E432-8528-4833-A87F-77B85E52661D.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/EF732564-8A38-4E06-A867-178A6A84CC5F.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/0D99CE8E-7281-4CFC-A727-346976087FA4.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/A90CB1F6-57AC-4983-BBF5-78AECBB58EC6.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/9515BA65-849A-43EF-B7F7-C482A26B4C9A.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/BA27E059-9E88-4ECC-A871-ED892FC20B38.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/542B4742-E46B-4C41-AFB1-B995727688B5.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/9157F358-CFE4-4175-845A-48C217680A40.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/8C961D0C-06DA-499D-AC23-01532F0A4501.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/D3E080FC-D91F-4F4E-A4D4-157D7028A39D.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/0EC3FA5F-EC06-4B65-B40B-CE8CB47C7238.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/4733F0C9-BF55-49EA-B467-5F8AC9BF0DF1.xcactivitylog
+/build
+/DerivedData/JSONEditor/Logs/Build/5FDA487F-89EE-4246-A251-EFB461D6D029.xcactivitylog
+/DerivedData/JSONEditor/OpenQuickly-ReferencedFrameworks.index-v1
+/DerivedData/JSONEditor/Logs/Build/2858F876-2B49-41EB-9205-B49217649B12.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/7ECC6B94-9904-44C6-97A7-BBD250084BC8.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/1CAD925D-69EC-499B-BAE9-46C1D244CA16.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/D51AF7E9-A21C-404C-9AF8-1BA37E74ABB3.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/CB340686-1144-409E-BF6B-2CA71F38EECA.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/409399AF-0823-499A-B3C6-EC13F00257A9.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/95FF79F5-3C71-4802-AD8E-A1E24446C8C3.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/2035C029-2AC0-473B-BFCF-9238FA139F03.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/E4FC1325-963D-4BD7-B33A-D9EE02ACDD96.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/E98CFA6C-04B6-4907-AA83-D88FE420CE2F.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/6CEA726D-68B5-4A06-BF1E-60F1E61E29D3.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/79F53A21-0DB2-43A4-A66B-61A67D9FDD72.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/F1F6832B-7105-4C75-A542-691230E3271C.xcactivitylog
+/DerivedData/JSONEditor/XCBuildData
+/DerivedData/JSONEditor/Logs/Debug/F67068BC-E048-427D-9398-A7499BDE6998.xcactivitylog
+/DerivedData/JSONEditor/Logs/Issues/F344F9E5-7FA6-4324-B96D-FBE8C1637228.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/F292D586-0E48-432A-8084-E7551B2BBE0D.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/8505CD86-8CA1-4C0D-B938-6F4CAC727AA5.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/00557772-13E2-4185-AFA4-CAF397126237.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/9A4CC5CD-1655-47AF-9B2A-B4F958D33AC9.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/1C8A4F68-DFF3-48D8-B8EB-D6BDBE5E7B8B.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/E9576EA4-7D57-4B58-A1DC-F71D3CAE7CB6.xcactivitylog
+/DerivedData/JSONEditor/Logs/Build/45139E52-F70C-438D-947C-3EAB2DDFE4AA.xcactivitylog
+/DerivedData/JSONEditor/Logs/Debug/79CEFB29-14E4-488C-825E-8F83C431B7EA.xcactivitylog
