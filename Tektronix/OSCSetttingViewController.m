@@ -19,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
+    self.TRIGger_A_EDGE_SLOpe=@[@"RISe",@"FALL",@"EITHer"];
+    self.SELECT_CH=@[@"ON",@"OFF"];
+    self.HARDCOPY_INKSAVER=@[@"OFF",@"ON"];
+    self.ACQuire_STOPAfter=@[@"SEQuence",@"RUNSTop"];
+    self.TRIGger_A_EDGE_SOUrce=@[@"CH1",@"CH2",@"CH3",@"CH4"];
+    self.TRIGger_A_TYPe=@[@"EDGe",@"LOGIc",@"PULSe",@"BUS",@"VIDeo"];
+    self.TRIGGER_A_EDGE_COUPLING=@[@"DC",@"AC",@"HFRej",@"LFRej",@"NOISErej"];
+    self.TRIGGER_A_MODE=@[@"NORMal",@"AUTO"];
 }
 
 -(void)viewDidAppear{
@@ -34,7 +42,7 @@
                 [(NSButton *)obj setTarget:self];
                 [(NSButton *)obj setAction:@selector(clickButton:)];
             }
-            else if ([obj isMemberOfClass:[NSTextField class]]){
+            else {
                 NSString *identifier = [(NSButton *)obj identifier];
                 [TfBtnMutDict setObject:obj forKey:identifier];
             }
@@ -45,18 +53,30 @@
 -(void)clickButton:(NSButton *)sender{
     NSArray *m = [sender.identifier componentsSeparatedByString:@"."];
     NSString *tfIndex = [NSString stringWithFormat:@"%@.%@.2",m[0],m[1]];
-    NSTextField *tf = [TfBtnMutDict objectForKey:tfIndex];
+    id tf = [TfBtnMutDict objectForKey:tfIndex];
     NSString *strtmp = NSLocalizedString(tfIndex,comment=@"");
     NSString *cmd = nil;
     if ([tfIndex isEqualToString:@"6.5.2"]) {
-        NSTextField *tf1 = [TfBtnMutDict objectForKey:@"6.1.2"];
-        cmd = [NSString stringWithFormat:strtmp,tf1.stringValue,tf.stringValue];
+        id tf1 = [TfBtnMutDict objectForKey:@"6.1.2"];
+        cmd = [NSString stringWithFormat:strtmp,[self textField_popupField_value:tf1],[self textField_popupField_value:tf]];
     }else{
-        cmd = [NSString stringWithFormat:strtmp,tf.stringValue];
+        cmd = [NSString stringWithFormat:strtmp,[self textField_popupField_value:tf]];
     }
     if (self.delegate!=nil && [self.delegate respondsToSelector:@selector(runScopeCommand:)] ) {
         [self.delegate runScopeCommand:cmd];
     }
 }
+
+-(NSString *)textField_popupField_value:(id)obj{
+    if ([obj isMemberOfClass:[NSTextField class]]) {
+        return [(NSTextField *)obj stringValue];
+    }
+    else if ([obj isMemberOfClass:[NSPopUpButton class]]){
+        return [(NSPopUpButton *)obj titleOfSelectedItem];
+    }else{
+        return  nil;
+    }
+}
+
 
 @end
